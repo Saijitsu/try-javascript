@@ -3,7 +3,7 @@
 ###Comment se présente notre affaire?
 
 Si plusieurs méthodes existe, la plus courante pour appeler votre script Javascript est celle-ci:<br/>
-![alt scriptJS](https://www.noelshack.com/2019-12-1-1552901291-capture.png)<br/>
+![alt scriptJS](https://image.noelshack.com/fichiers/2019/12/1/1552901291-capture.png)<br/>
 On appel le script en fin du contenu body pour laisser au navigateur le temps de charger le reste du contenu de la page.
 
 ## Avant-propos: qu'est-ce que Javascript?
