@@ -73,7 +73,7 @@ et const autorise les modifications dans un objet ou dans un tableau.
 
 #### Les différents types de variables:
 
-![alt lesTypes](https://www.noelshack.com/2019-12-1-1552904342-capture2.png)
+![alt lesTypes](https://image.noelshack.com/fichiers/2019/12/1/1552904342-capture2.png)
 
 ## commentaires
 
