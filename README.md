@@ -91,7 +91,16 @@ Les opérateurs arithmétiques utilisent des valeurs numériques (variables ou l
 **La version rapide:** <br/>
 ![alt operateurs](https://image.noelshack.com/fichiers/2019/12/1/1552904342-capture2.png)<br/>
 
-**Guide de survie ic: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Op%C3%A9rateurs_arithm%C3%A9tiques**
+**Guide de survie ici: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Op%C3%A9rateurs_arithm%C3%A9tiques**
+
+### L'égalité en JS, qui mériterait un cours à elle seule:
+
+EcmaScript6 (ES6) possède trois outils pour déterminer si deux valeurs x et y sont « égales ».  Il y a l'égalité simple (deux signes égal) (**==**), l'égalité stricte (trois signes égal) (**===**), et la **méthode Object.is**. (Cette méthode a été ajoutée avec ES6. Les opérateurs d'égalité simple et stricte étaient présents en JavaScript avant ES6 et ont conservé leur comportement.)<br/>
+``x == y``<br/>
+``x === y``<br/>
+``Object.is(x, y)``<br/>
+
+En résumé : l'opérateur d'égalité simple (**==**) effectuera une conversion de type entre les objets comparés, l'opérateur d'égalité stricte (**===**)n'effectuera pas de conversion avant de comparer les objets (false est renvoyé automatiquement si les types sont différents), enfin **Object.is** se comportera de la même façon que l'opérateur d'égalité stricte avec des règles supplémentaires pour les valeurs NaN, -0 et +0. Object.is(-0, +0) ne sera pas vérifié et Object.is(NaN, NaN) sera vrai.
 
 ## structures conditionnelles
 ## fonctions
