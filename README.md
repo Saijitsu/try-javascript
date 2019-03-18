@@ -73,7 +73,12 @@ et const autorise les modifications dans un objet ou dans un tableau.
 
 #### Les différents types de variables:
 
-![alt lesTypes](https://image.noelshack.com/fichiers/2019/12/1/1552904342-capture2.png)
+![alt lesTypes](https://image.noelshack.com/fichiers/2019/12/1/1552904342-capture2.png) <br/>
+
+##### Précision, car non vu en cours et essentiel:
+- La valeur **null** est un littéral JavaScript représentant la nullité au sens où aucune valeur pour l'objet n'est présente. C'est une des valeurs primitives de JavaScript.
+- La propriété globale **undefined** représente la valeur undefined. Cette valeur est l'un des types primitifs de JavaScript. (Une variable pour laquelle aucune valeur n'a été assignée sera de type undefined. Une méthode ou instruction renvoie également undefined si la variable à évaluer n'a pas de valeur assignée. Une fonction renvoie undefined si aucune valeur n'a été retournée.)
+- Vu mais non détaillé: La propriété globale **NaN** est une valeur utilisée pour représenter une quantité qui n'est pas un nombre (Not a Number en anglais).
 
 ## commentaires
 
