@@ -1,6 +1,6 @@
-#Aujourd'hui il y a du Javascript au menu!
+# Aujourd'hui il y a du Javascript au menu!
 
-###Comment se présente notre affaire?
+### Comment se présente notre affaire?
 
 Si plusieurs méthodes existe, la plus courante pour appeler votre script Javascript est celle-ci:<br/>
 ![alt scriptJS](https://image.noelshack.com/fichiers/2019/12/1/1552901291-capture.png)<br/>
