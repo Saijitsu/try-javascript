@@ -112,6 +112,27 @@ En résumé : l'opérateur d'égalité simple (**==**) effectuera une conversion
 **C'est ici : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Op%C3%A9rateurs_logiques**
 
 ## structures conditionnelles
+
+### Boucles et itérations
+
+C'est ici que ça se passe: https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Boucles_et_it%C3%A9ration#L'instruction_do...while <br/>
+Une boucle for répète des instructions jusqu'à ce qu'une condition donnée ne soit plus vérifiée. La boucle for JavaScript ressemble beaucoup à celle utilisée en C ou en Java. A titre d'exemple une boucle for s'utilise de la façon suivante : <br/>
+``for ([expressionInitiale]; [condition]; [expressionIncrément]){`` <br/>
+``  instruction}``<br/>
+
+#### D'autres cas:
+
+Voici les différentes boucles fournies par JavaScript :
+
+- L'instruction for
+- L'instruction do...while
+- L'instruction while
+- L'instruction label
+- L'instruction break
+- L'instruction continue
+- L'instruction for...in
+- L'instruction for...of
+
 ## fonctions
 ## événements
 
