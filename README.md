@@ -81,6 +81,13 @@ et const autorise les modifications dans un objet ou dans un tableau.
 `` /* Je commente plusieurs lignes en les encapsulants */ ``
 
 ## opérateurs
+
+Les opérateurs arithmétiques utilisent des valeurs numériques (variables ou littéraux) comme opérandes et renvoient une valeur numérique. Les opérateurs arithmétiques standard sont l'addition (+), la soustraction (-), la multiplication (*), et la division (/).<br/>
+**La version rapide:** <br/>
+![alt operateurs](https://image.noelshack.com/fichiers/2019/12/1/1552904342-capture2.png)<br/>
+
+**Guide de survie ic: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Op%C3%A9rateurs_arithm%C3%A9tiques**
+
 ## structures conditionnelles
 ## fonctions
 ## événements
