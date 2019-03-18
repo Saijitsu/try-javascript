@@ -136,6 +136,13 @@ Voici les différentes boucles fournies par JavaScript :
 ## fonctions
 ## événements
 
+## Les découvertes de la semaine:
 
+**Le mode strict apporte quelques changements à la sémantique « normale » de JavaScript:** <br/>
+
+Le mode strict élimine quelques erreurs silencieuses de JavaScript en les changeant en erreurs explicites (une exception sera levée). <br/>
+Le mode strict corrige les erreurs qui font qu'autrement il est difficile pour les moteurs JavaScript d'effectuer des optimisations. Le code sera donc exécuté plus rapidement en mode strict, sans changer une seule ligne si cela n'est pas nécessaire. <br/>
+Le mode strict interdit les mot-clés susceptibles d'être définis dans les futures versions de ECMAScript. <br/>
+Voir la page Passer au mode strict pour plus de détails quant à la migration d'une base de code non-stricte vers une base de code compatible avec le mode strict. <br/>
 
 
