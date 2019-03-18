@@ -3,9 +3,40 @@
 ###Comment se présente notre affaire?
 
 Si plusieurs méthodes existe, la plus courante pour appeler votre script Javascript est celle-ci:<br/>
-![alt scriptJS](https://image.noelshack.com/fichiers/2019/12/1/1552899084-capture.png)<br/>
+![alt scriptJS](https://www.noelshack.com/2019-12-1-1552901291-capture.png)<br/>
 On appel le script en fin du contenu body pour laisser au navigateur le temps de charger le reste du contenu de la page.
 
+## Avant-propos: qu'est-ce que Javascript?
+
+**consulter ce qu'est Javascript: https://developer.mozilla.org/fr/docs/Web/JavaScript**<br/>
+** Je vous connseil vivement de commencer par les bases dans un "ordre logique": https://developer.mozilla.org/fr/docs/Apprendre/Commencer_avec_le_web/Les_bases_JavaScript ** <br/>
+L'ordre d'apprentissage proposé par Mozilla me parait idéal:
+- variables
+- commentaires
+- opérateurs
+- structures conditionnelles
+- fonctions
+- événements
+
+#### La structure du code:
+
+Une instruction de bloc est utilisée afin de grouper zéro ou plusieurs instructions. Le bloc est délimité par une paire d'accolades. On peut éventuellement « étiqueter » un bloc avec un label.
+
+- bloc simple:
+``{
+  instruction_1;
+  instruction_2;
+  ...
+  instruction_n;
+}``
+
+- étiqueté:
+``// ou, avec une étiquette :
+label {
+  instruction_1;
+  instruction_2;
+  instruction_n;
+}``
 ## Les variables
 
 L'instruction **var** (pour variable) permet de déclarer une variable et éventuellement d'initialiser sa valeur.<br/>
@@ -25,15 +56,22 @@ ne peut pas être modifiée par des réaffectations ultérieures. Une constante 
 
 #### Comment utiliser var, let, const?
 
-- **un article sur le sujet:** https://www.angularchef.com/recette/49/ <br/>
+**un article sur le sujet:** https://www.angularchef.com/recette/49/ <br/>
 **const** et **let** sont les deux mots-clé permettant de déclarer une variable, en JavaScript (à partir de **ES6**) et en **TypeScript**.<br/>
 **Pour bien comprendre l'évolution je vous suggère de regarder les évolutions avant et après ES6.**<br/>
 
 **Best practice**: Utilisez const dans 90% des cas, let le reste du temps. <br/>
 En fréquence, on utilise const quasiment tout le temps, car: <br/>
-- 1) on a rarement besoin de réassigner une variable ;
-- 2) on manipule souvent des objets et des tableaux plutôt que des primitives,
+- 1: on a rarement besoin de réassigner une variable ;
+- 2: on manipule souvent des objets et des tableaux plutôt que des primitives,
 et const autorise les modifications dans un objet ou dans un tableau.
+
+## commentaires
+## opérateurs
+## structures conditionnelles
+## fonctions
+## événements
+
 
 
 
