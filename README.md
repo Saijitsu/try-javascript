@@ -41,9 +41,14 @@ label {
 
 L'instruction **var** (pour variable) permet de déclarer une variable et éventuellement d'initialiser sa valeur.<br/>
 ``var nomVar1 [= valeur1] [, nomVar2 [= valeur2] ... [, nomVarN [= valeurN]]];``<br/>
+
 - Le nom de la variable, cela peut être n'importe quel identifiant valide.
 - La valeur initiale à affecter à la variable, cela peut être n'importe quelle expression valide. S'il n'y a aucune valeur fournie,
 la variable vaudra undefined.
+
+#### Pourquoi utiliser des variables?
+
+Pourquoi a-t-on besoin de variables ? Et bien parce qu'elles sont essentielles à la programmation. **Si les valeurs ne pouvaient pas changer, on ne pourrait rien faire de dynamique**, comme personnaliser un message de bienvenue ou changer l'image affichée dans une galerie.
 
 #### plus d'indications ici: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/var
 
@@ -66,7 +71,15 @@ En fréquence, on utilise const quasiment tout le temps, car: <br/>
 - 2: on manipule souvent des objets et des tableaux plutôt que des primitives,
 et const autorise les modifications dans un objet ou dans un tableau.
 
+#### Les différents types de variables:
+
+![alt lesTypes](https://www.noelshack.com/2019-12-1-1552904342-capture2.png)
+
 ## commentaires
+
+`` // Je commente une ligne``<br/>
+`` /* Je commente plusieurs lignes en les encapsulants */ ``
+
 ## opérateurs
 ## structures conditionnelles
 ## fonctions
