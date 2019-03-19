@@ -139,7 +139,7 @@ Les fonctions font partie des briques fondamentales de JavaScript. Une fonction 
 Votre contenu de de cours ici comme toujours: https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Fonctions <br/>
 Les closures vu durant la matinée: https://developer.mozilla.org/fr/docs/Web/JavaScript/Closures
 
-#### Comment ça marche:
+#### Comment ça marche?
 **Ca se présente comme ça:**<br/>
 - Le nom de la fonction.
 - Une liste d'arguments à passer à la fonction, entre parenthèses et séparés par des virgules.
