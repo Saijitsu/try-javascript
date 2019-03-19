@@ -4,12 +4,12 @@
 
 Si plusieurs méthodes existe, la plus courante pour appeler votre script Javascript est celle-ci:<br/>
 ![alt scriptJS](https://image.noelshack.com/fichiers/2019/12/1/1552901291-capture.png)<br/>
-On appel le script en fin du contenu body pour laisser au navigateur le temps de charger le reste du contenu de la page.
+Appelez le script en fin du contenu body pour laisser au navigateur le temps de charger le reste du contenu de la page.
 
 ## Avant-propos: qu'est-ce que Javascript?
 
 **consulter ce qu'est Javascript: https://developer.mozilla.org/fr/docs/Web/JavaScript**<br/>
-** Je vous connseil vivement de commencer par les bases dans un "ordre logique": https://developer.mozilla.org/fr/docs/Apprendre/Commencer_avec_le_web/Les_bases_JavaScript ** <br/>
+** Je vous conseille vivement de commencer par les bases dans un "ordre logique": https://developer.mozilla.org/fr/docs/Apprendre/Commencer_avec_le_web/Les_bases_JavaScript ** <br/>
 L'ordre d'apprentissage proposé par Mozilla me parait idéal:
 - variables
 - commentaires
@@ -42,8 +42,8 @@ label {
 L'instruction **var** (pour variable) permet de déclarer une variable et éventuellement d'initialiser sa valeur.<br/>
 ``var nomVar1 [= valeur1] [, nomVar2 [= valeur2] ... [, nomVarN [= valeurN]]];``<br/>
 
-- Le nom de la variable, cela peut être n'importe quel identifiant valide.
-- La valeur initiale à affecter à la variable, cela peut être n'importe quelle expression valide. S'il n'y a aucune valeur fournie,
+- Le nom de la variable peut être n'importe quel identifiant valide.
+- La valeur initiale à affecter à la variable peut être n'importe quelle expression valide. S'il n'y a aucune valeur fournie,
 la variable vaudra undefined.
 
 #### Pourquoi utiliser des variables?
