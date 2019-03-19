@@ -150,6 +150,14 @@ Exemple:<br/>
  `` return nombre * nombre;``<br/>
 ``}``<br/>
 
+**Quelques points à revoir:** <br/>
+- Syntaxe de décomposition: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Syntaxe_d%C3%A9composition
+- Paramètres du reste: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Fonctions/param%C3%A8tres_du_reste
+
+## Objets
+
+- c'est ici: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Object
+
 ## événements
 
 ## Les découvertes de la semaine:
