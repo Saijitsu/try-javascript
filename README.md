@@ -134,6 +134,21 @@ Voici les différentes boucles fournies par JavaScript :
 - L'instruction for...of
 
 ## fonctions
+
+Les fonctions font partie des briques fondamentales de JavaScript. Une fonction est une procédure JavaScript, un ensemble d'instructions effectuant une tâche ou calculant une valeur. Afin d'utiliser une fonction, il est nécessaire de l'avoir auparavant définie au sein de la portée dans laquelle on souhaite l'appeler. <br/>
+Votre contenu de de cours ici comme toujours: https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Fonctions <br/>
+
+#### Comment ça marche:
+**Ca se présente comme ça:**<br/>
+- Le nom de la fonction.
+- Une liste d'arguments à passer à la fonction, entre parenthèses et séparés par des virgules.
+- Les instructions JavaScript définissant la fonction, entre accolades, { }.
+
+Exemple:<br/>
+`` function carré(nombre) {``<br/>
+ `` return nombre * nombre;``<br/>
+``}``<br/>
+
 ## événements
 
 ## Les découvertes de la semaine:
