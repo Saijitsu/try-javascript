@@ -39,6 +39,13 @@ label {
 }``
 ## Les variables
 
+### Les bonnes pratiques:
+
+- Précéder chaque déclaration de variable par var ou let et const dans les versions plus récentes
+- Utiliser des variables en **camelCase**
+- Utiliser des constantes en **MAJUSCULE_AVEC_UNDERSCORE**
+- Utiliser une **majuscule** à la première lettre des constructeurs
+
 L'instruction **var** (pour variable) permet de déclarer une variable et éventuellement d'initialiser sa valeur.<br/>
 ``var nomVar1 [= valeur1] [, nomVar2 [= valeur2] ... [, nomVarN [= valeurN]]];``<br/>
 
