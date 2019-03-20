@@ -158,6 +158,10 @@ Exemple:<br/>
 
 - c'est ici: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Object
 
+## Le DOM
+
+- c'est ici: https://developer.mozilla.org/fr/docs/Web/API/Document_Object_Model/Introduction
+
 ## événements
 
 ## Les découvertes de la semaine:
