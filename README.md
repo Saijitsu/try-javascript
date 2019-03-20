@@ -187,7 +187,7 @@ Exemple:<br/>
 - querySelector("#id:nth-child(02)") Fera ici la même chose; <br/>
 La pseudo-classe :nth-child(an+b) permet de cibler un élément qui possède an+b-1 éléments voisins (au même niveau) avant lui dans l'arbre du document pour des valeurs entières n et qui possède un élément parent. Autrement dit, un sélecteur utilisant cette pseudo-classe permettra de cibler les éléments fils d'un élément dont les positions correspondent au motif an+b.
 
-Exemple durant la scéance:
+**Exemple durant la scéance:**<br/>
 ``const ENTRIES_CHOICE = Number(prompt("Please enter a number of navigation entries", "Entries number")); ``<br/>
 ``const LINK_LOCATION = document.querySelector("nav");``<br/><br/>
 
