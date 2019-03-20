@@ -180,7 +180,12 @@ Les sélecteurs Javascript<br/>
 - querySelector() (un seul: Autre que par identifiant)
 - querySelectorAll() (plusieurs: Autre que par balise ou par classe), sélecteurs par sélecteurs CSS. <br/>
 
-En théorie, il serait possible d'utiliser systématiquement les méthodes querySelectorAll et querySelector. Cependant, celles-ci souffrent d'un déficit de performances par rapport aux méthodes getElementsByTagName, getElementsByClassName et getElementById.
+En théorie, il serait possible d'utiliser systématiquement les méthodes querySelectorAll et querySelector. Cependant, celles-ci souffrent d'un déficit de performances par rapport aux méthodes getElementsByTagName, getElementsByClassName et getElementById.<br/>
+
+Exemple:<br/>
+- querySelector("#id:nth-child(0n+2)"); <br/>
+- querySelector("#id:nth-child(02)") Fera ici la même chose; <br/>
+La pseudo-classe :nth-child(an+b) permet de cibler un élément qui possède an+b-1 éléments voisins (au même niveau) avant lui dans l'arbre du document pour des valeurs entières n et qui possède un élément parent. Autrement dit, un sélecteur utilisant cette pseudo-classe permettra de cibler les éléments fils d'un élément dont les positions correspondent au motif an+b.
 
 ## événements
 
