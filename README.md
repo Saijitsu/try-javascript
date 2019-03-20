@@ -169,6 +169,19 @@ Exemple:<br/>
 
 - c'est ici: https://developer.mozilla.org/fr/docs/Web/API/Document_Object_Model/Introduction
 
+### Comment cibler un élément en Javascript?
+Les sélecteurs Javascript<br/>
+**Les méthodes Javascript pour cibler un élément afin de pouvoir modifier son style :**<br/>
+
+- getElementById(), sélection par attribut HTML ID.
+- getElementsByName(), sélection par attribut HTML NAME.
+- getElementsByTagName(), sélection par nom de balise HTML (selection de plusieurs balises)
+- getElementsByClassName(), sélecteur par identifiant présent dans attribut HTML CLASS. (selection de plusieurs éléments d'une même class)
+- querySelector() (un seul: Autre que par identifiant)
+- querySelectorAll() (plusieurs: Autre que par balise ou par classe), sélecteurs par sélecteurs CSS. <br/>
+
+En théorie, il serait possible d'utiliser systématiquement les méthodes querySelectorAll et querySelector. Cependant, celles-ci souffrent d'un déficit de performances par rapport aux méthodes getElementsByTagName, getElementsByClassName et getElementById.
+
 ## événements
 
 ## Les découvertes de la semaine:
