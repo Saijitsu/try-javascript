@@ -144,7 +144,9 @@ Voici les différentes boucles fournies par JavaScript :
 
 Les fonctions font partie des briques fondamentales de JavaScript. Une fonction est une procédure JavaScript, un ensemble d'instructions effectuant une tâche ou calculant une valeur. Afin d'utiliser une fonction, il est nécessaire de l'avoir auparavant définie au sein de la portée dans laquelle on souhaite l'appeler. <br/>
 Votre contenu de de cours ici comme toujours: https://developer.mozilla.org/fr/docs/Web/JavaScript/Guide/Fonctions <br/>
-Les closures vu durant la matinée: https://developer.mozilla.org/fr/docs/Web/JavaScript/Closures
+Les closures vu durant la matinée: https://developer.mozilla.org/fr/docs/Web/JavaScript/Closures <br/>
+
+![alt appelDeFonction](https://image.noelshack.com/fichiers/2019/12/4/1553179649-capture222.png)
 
 #### Comment ça marche?
 **Ca se présente comme ça:**<br/>
