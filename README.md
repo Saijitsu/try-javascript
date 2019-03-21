@@ -165,6 +165,10 @@ Exemple:<br/>
 
 - c'est ici: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Object
 
+### Class
+
+
+
 ## Le DOM
 
 - c'est ici: https://developer.mozilla.org/fr/docs/Web/API/Document_Object_Model/Introduction
