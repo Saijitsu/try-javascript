@@ -206,6 +206,8 @@ Ici les liens pointeront vers eux-mêmes, ce qui n'as pas trop de sens, mais l'i
 
 ## événements
 
+- l'essentiel ici: https://developer.mozilla.org/fr/docs/Web/Events
+
 ## Les découvertes de la semaine:
 
 **Le mode strict apporte quelques changements à la sémantique « normale » de JavaScript:** <br/>
