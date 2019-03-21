@@ -1,14 +1,10 @@
 import { Viewer } from "./component/viewer.js";
 import { Thumbnails } from "./component/thumbnails.js";
-
+import { Component} from "./component/component.js"
 
 // ici on a une syntaxe de class, mais en réalité il s'agit d'un prototype
 // rappel: javascript est centré sur le mécanisme de prototypage
-export class Gallery {
-    constructor(domElt) {
-        this.root = domElt;
-    }
-
+export class Gallery extends Component {
     // language courant: méthode, en réalité fonction attachée sur une propriété
     // En l'occurence ici, fonction attachée sur un prototype
     init() {
