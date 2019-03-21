@@ -206,7 +206,14 @@ Ici les liens pointeront vers eux-mêmes, ce qui n'as pas trop de sens, mais l'i
 
 ## événements
 
-- l'essentiel ici: https://developer.mozilla.org/fr/docs/Web/Events
+- l'essentiel ici: https://developer.mozilla.org/fr/docs/Web/Events <br/>
+
+- ``**target.addEventListener(type, listener[, useCapture]);**``<br/>
+
+![alt listenerShema](https://javascript.info/article/bubbling-and-capturing/eventflow.png) <br/>
+
+- La méthode  preventDefault() de l 'interface Event indique à l'agent utilisateur que si l'événement n'est pas traité explicitement, son action par défaut ne doit pas être prise en compte comme elle le serait normalement. L'événement continue à se propager comme d'habitude, sauf si l'un de ses écouteurs appelle stopPropagation() ou stopImmediatePropagation() , dont l'un ou l'autre termine la propagation. (le détail ici: https://developer.mozilla.org/fr/docs/Web/API/Event/preventDefault).
+
 
 ## Les découvertes de la semaine:
 
