@@ -224,6 +224,30 @@ Ici les liens pointeront vers eux-mêmes, ce qui n'as pas trop de sens, mais l'i
 
 ![alt rest](https://jio3n19dxjh2x0df120u32x1-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/RESTAPI3.png)<br/>
 
+- ses méthodes:
+  - get: Afficher (read)
+  - post: Créer (create)
+  - put: Mettre à jour (update)
+  - delete: Supprimer (delete)
+  - patch <br/>: Mise à jour du contenu nouveau (n'ajoute que la différence par rapport au contenu initial)
+
+- les réponses HTTP:
+  - 2xx indique le succès.
+  - 3xx redirige le client ailleurs.
+  - 4xx indique une faute de la part du client.
+  - 5xx indique une erreur de la part du serveur.<br/>                                                                                       
+- 2xx :<br/>
+200 OK<br/>
+- 201 Created<br/>
+- 3xx : <br/>
+301 Moved Permanently<br/>
+- 4xx :<br/>
+400 Bad Request<br/>
+401 Unauthorized<br/>
+404 Not Found<br/>
+- 5xx :<br/>
+500 Internal Server Error<br/>
+
 - quelques infos en la matière: https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Formulaires/Envoyer_et_extraire_les_donn%C3%A9es_des_formulaires
 
 
