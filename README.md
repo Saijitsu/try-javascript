@@ -163,11 +163,11 @@ Exemple:<br/>
 - Syntaxe de décomposition: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Syntaxe_d%C3%A9composition
 - Paramètres du reste: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Fonctions/param%C3%A8tres_du_reste
 
-## Objets
+## "Objets"
 
 - c'est ici: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Object
 
-### Class
+### "Class"
 
 
 
@@ -220,6 +220,44 @@ Ici les liens pointeront vers eux-mêmes, ce qui n'as pas trop de sens, mais l'i
 
 - La méthode  preventDefault() de l 'interface Event indique à l'agent utilisateur que si l'événement n'est pas traité explicitement, son action par défaut ne doit pas être prise en compte comme elle le serait normalement. L'événement continue à se propager comme d'habitude, sauf si l'un de ses écouteurs appelle stopPropagation() ou stopImmediatePropagation() , dont l'un ou l'autre termine la propagation. (le détail ici: https://developer.mozilla.org/fr/docs/Web/API/Event/preventDefault).
 
+## Ajax / REST
+**Quelques infos en la matière: https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Formulaires/Envoyer_et_extraire_les_donn%C3%A9es_des_formulaires**<br/>
+
+![alt rest](https://jio3n19dxjh2x0df120u32x1-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/RESTAPI3.png)<br/>
+
+- ses méthodes:
+  - get: Afficher (read)
+  - post: Créer (create)
+  - put: Mettre à jour (update)
+  - delete: Supprimer (delete)
+  - patch <br/>: Mise à jour du contenu nouveau (n'ajoute que la différence par rapport au contenu initial)
+
+- les réponses HTTP:
+  - 2xx indique le succès.
+  - 3xx redirige le client ailleurs.
+  - 4xx indique une faute de la part du client.
+  - 5xx indique une erreur de la part du serveur.<br/>                                                                                   
+ 
+#### Liste des codes HTTP
+
+**Détail ici: https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP** <br/>
+- 2xx :<br/>
+200 OK<br/>
+201 Created<br/>
+
+- 3xx : <br/>
+301 Moved Permanently<br/>
+302 Found <br/>
+303 Suggest/see other<br/>
+304 Not modified<br/>
+
+- 4xx :<br/>
+400 Bad Request<br/>
+401 Unauthorized<br/>
+404 Not Found<br/>
+
+- 5xx :<br/>
+500 Internal Server Error<br/>
 
 ## Les découvertes de la semaine:
 
