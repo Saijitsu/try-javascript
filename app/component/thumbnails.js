@@ -20,6 +20,9 @@ export class Thumbnails extends Component   {
     }
 };*/
 
+/*
+Version XMLHttpRequest
+
 import {Component} from "./component.js";
 import {ImageListXhr} from "../image-list-xhr.js";
 
@@ -29,6 +32,29 @@ export class Thumbnails extends Component {
     const imageListXhr = new ImageListXhr();
     // Ici fonction flechée pour ici garder le context de this
     imageListXhr.getList((responseData) => {
+      this.root.innerHTML = Thumbnails.displayList(responseData);
+    });
+    this.root.innerHTML = '<p>Chargement des miniatures</p>';
+  }
+
+  // classiquement on est attaché au prototype, ici on utilise static
+  // la on est attaché au constructeur (notre class, en JS c'est pareil)
+  static displayList(list) {
+    const htmlImgArray = list.map(img => `<li><img src="img/${img}"/></li>`);
+    const htmlImgString = htmlImgArray.join('');
+    return `<ul>${htmlImgString}</ul>`;
+  }
+};*/
+
+// fetch version 
+
+import {Component} from "./component.js";
+import {ImageListFetch} from "../image-list-fetch.js";
+
+export class Thumbnails extends Component {
+
+  init() {
+    ImageListFetch.getList().then((responseData) => {
       this.root.innerHTML = Thumbnails.displayList(responseData);
     });
     this.root.innerHTML = '<p>Chargement des miniatures</p>';
