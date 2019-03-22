@@ -242,7 +242,7 @@ Ici les liens pointeront vers eux-mêmes, ce qui n'as pas trop de sens, mais l'i
 **Détail ici: https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP** <br/>
 - 2xx :<br/>
 200 OK<br/>
-- 201 Created<br/>
+201 Created<br/>
 
 - 3xx : <br/>
 301 Moved Permanently<br/>
