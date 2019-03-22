@@ -235,16 +235,26 @@ Ici les liens pointeront vers eux-mêmes, ce qui n'as pas trop de sens, mais l'i
   - 2xx indique le succès.
   - 3xx redirige le client ailleurs.
   - 4xx indique une faute de la part du client.
-  - 5xx indique une erreur de la part du serveur.<br/>                                                                                       
+  - 5xx indique une erreur de la part du serveur.<br/>                                                                                   
+ 
+#### Liste des codes HTTP
+
+**Détail ici: https://fr.wikipedia.org/wiki/Liste_des_codes_HTTP** <br/>
 - 2xx :<br/>
 200 OK<br/>
 - 201 Created<br/>
+
 - 3xx : <br/>
 301 Moved Permanently<br/>
+302 Found <br/>
+303 Suggest/see other<br/>
+304 Not modified<br/>
+
 - 4xx :<br/>
 400 Bad Request<br/>
 401 Unauthorized<br/>
 404 Not Found<br/>
+
 - 5xx :<br/>
 500 Internal Server Error<br/>
 
