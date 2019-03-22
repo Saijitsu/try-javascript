@@ -221,6 +221,7 @@ Ici les liens pointeront vers eux-mêmes, ce qui n'as pas trop de sens, mais l'i
 - La méthode  preventDefault() de l 'interface Event indique à l'agent utilisateur que si l'événement n'est pas traité explicitement, son action par défaut ne doit pas être prise en compte comme elle le serait normalement. L'événement continue à se propager comme d'habitude, sauf si l'un de ses écouteurs appelle stopPropagation() ou stopImmediatePropagation() , dont l'un ou l'autre termine la propagation. (le détail ici: https://developer.mozilla.org/fr/docs/Web/API/Event/preventDefault).
 
 ## Ajax / REST
+**Quelques infos en la matière: https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Formulaires/Envoyer_et_extraire_les_donn%C3%A9es_des_formulaires**<br/>
 
 ![alt rest](https://jio3n19dxjh2x0df120u32x1-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/RESTAPI3.png)<br/>
 
@@ -257,9 +258,6 @@ Ici les liens pointeront vers eux-mêmes, ce qui n'as pas trop de sens, mais l'i
 
 - 5xx :<br/>
 500 Internal Server Error<br/>
-
-- quelques infos en la matière: https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Formulaires/Envoyer_et_extraire_les_donn%C3%A9es_des_formulaires
-
 
 ## Les découvertes de la semaine:
 
