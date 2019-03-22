@@ -1,3 +1,4 @@
+
 const xhr = new XMLHttpRequest();
 // xhr => XMLHttpRequest
 xhr.open ('get', '/contact.html');
@@ -5,7 +6,7 @@ xhr.open ('get', '/contact.html');
 xhr.addEventListener ('load', function(){
     // this vaut l'objet XMLHttpRequest
 
-    if (this.statusCode >= 200 && this.statusCode < 300) {
+    if (this.statusCode >= 200 && this.status < 300) {
         console.log(this.reponseText);
     }
 });
