@@ -163,11 +163,11 @@ Exemple:<br/>
 - Syntaxe de décomposition: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Syntaxe_d%C3%A9composition
 - Paramètres du reste: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Fonctions/param%C3%A8tres_du_reste
 
-## Objets
+## "Objets"
 
 - c'est ici: https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Object
 
-### Class
+### "Class"
 
 
 
@@ -219,6 +219,12 @@ Ici les liens pointeront vers eux-mêmes, ce qui n'as pas trop de sens, mais l'i
 ![alt listenerShema](https://javascript.info/article/bubbling-and-capturing/eventflow.png) <br/>
 
 - La méthode  preventDefault() de l 'interface Event indique à l'agent utilisateur que si l'événement n'est pas traité explicitement, son action par défaut ne doit pas être prise en compte comme elle le serait normalement. L'événement continue à se propager comme d'habitude, sauf si l'un de ses écouteurs appelle stopPropagation() ou stopImmediatePropagation() , dont l'un ou l'autre termine la propagation. (le détail ici: https://developer.mozilla.org/fr/docs/Web/API/Event/preventDefault).
+
+## Ajax / REST
+
+![alt rest](https://jio3n19dxjh2x0df120u32x1-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/RESTAPI3.png)<br/>
+
+- quelques infos en la matière: https://developer.mozilla.org/fr/docs/Web/Guide/HTML/Formulaires/Envoyer_et_extraire_les_donn%C3%A9es_des_formulaires
 
 
 ## Les découvertes de la semaine:
