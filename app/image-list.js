@@ -19,3 +19,4 @@ export const IMAGE_LIST = [
   'tux-slipknot.png',
   'tuxwalker.png'
 ];
+ 
